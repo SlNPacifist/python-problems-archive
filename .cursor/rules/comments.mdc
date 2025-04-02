@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Comments
+
+- All the comments should be in Russian.
+- Obvious comments (like, say, "Constants" or "Initialization") should be omitted. The comment should convert a value (for example, describe a numerical value of a color to a text representation), answer the question "why is this code here", or point to some piece of code that is more than several lines away from this one.
+- Omit comments that are general, like "Преобразование текстовых значений в числа с обработкой ошибок". We assume that the error handling and type coercion is thought of by default and should not be mentioned in comments.
+- Omit comments that are just translations of the next line

@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Code rules
+
+- If a variable is used only once and its usage can be replaced with the variable content without damaging the readability, it should be done
